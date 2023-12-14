@@ -27,3 +27,31 @@ That's why you always need to be cautious when granting permissions to scripts, 
 
 ## How to grant access?
 
+<div align="center">
+The first time you run any script in any project for the first time, it will show the permission pop-up, click on **"OK"** here
+<br><br>
+
+![first pop-up](01.png)
+
+Then, it will ask you to log in into the account you want to give the permissions
+
+![log in](02.png)
+
+After that it will show you this message. Here it says that Google hasn't verified this app, that's because the script is not made by Google, but by a third-party author. Here, click on the **"Advanced"** option
+
+![Google hasn't verified this script](03.png)
+
+Then, just click on "Access _your_project_here_"
+
+![Access the project](04.png)
+
+After that, it will show you all the permissions you need to give the project to it run properly, here is just click on **"Allow"**
+
+![finally, allow the project to run the scripts](05.png)
+
+# That's it, now you can run all the scripts properly, enjoy!
+
+</div>
+
+
+
