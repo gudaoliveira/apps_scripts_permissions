@@ -1,57 +1,55 @@
-# Google Apps Script Permissions
-This is a simple tutorial to teach how to give permissions to your scripts on Google Apps Scripts to run
+# Permissões do Google Apps Script
 
-## Why i need to do this?
+Este é um tutorial simples para ensinar como conceder permissões aos seus scripts no Google Apps Script para a execução.
 
-When you run Google Apps Script, especially when it interacts with external services or requires access to certain data, you often need to grant permissions. This is a security measure designed to ensure that you, as the script owner, are aware of and approve the actions the script will perform. Here are the common reasons why you might need to give permissions for your Google Apps Script to run:
+## Por que preciso fazer isso?
 
-1. **Access to External Services:**
-   - Permission to interact with external services like Gmail, Google Drive, etc.
+Ao executar o Google Apps Script, especialmente quando ele interage com serviços externos ou requer acesso a determinados dados, muitas vezes é necessário conceder permissões. Esta é uma medida de segurança projetada para garantir que você, como proprietário do script, esteja ciente e aprove as ações que o script realizará. Aqui estão as razões comuns pelas quais você pode precisar dar permissões para seu Google Apps Script ser executado:
 
-2. **Authorization for Sensitive Scopes:**
-   - Approval for actions that require specific authorization scopes.
+1. **Acesso a Serviços Externos:**
+   - Permissão para interagir com serviços externos como Gmail, Google Drive, etc.
 
-3. **User Consent:**
-   - User permission to access their data (e.g., Google Sheets, Calendar).
+2. **Autorização para Escopos Sensíveis:**
+   - Aprovação para ações que exigem escopos de autorização específicos.
 
-4. **API Access:**
-   - Configuration for advanced Google APIs in the Google Cloud Console.
+3. **Consentimento do Usuário:**
+   - Permissão do usuário para acessar seus dados (por exemplo, Google Sheets, Calendário).
 
-5. **Security Review for Published Add-ons:**
-   - Required for published add-ons to meet security and privacy standards.
+4. **Acesso à API:**
+   - Configuração para APIs avançadas do Google no Console do Google Cloud.
 
-6. **Permissions for Triggers:**
-   - Additional permissions for scripts running automatically at intervals.
+5. **Revisão de Segurança para Complementos Publicados:**
+   - Necessário para complementos publicados atenderem aos padrões de segurança e privacidade.
 
-That's why you always need to be cautious when granting permissions to scripts, especially those developed by third parties. Only grant access to scripts from sources you trust, and review the requested permissions to understand what actions the script will perform.
+6. **Permissões para Disparadores:**
+   - Permissões adicionais para scripts que são executados automaticamente em intervalos.
 
-## How to grant access?
+Portanto, é sempre necessário ter cautela ao conceder permissões a scripts, especialmente aqueles desenvolvidos por terceiros. Conceda acesso apenas a scripts de fontes confiáveis e revise as permissões solicitadas para entender quais ações o script realizará.
+
+## Como conceder acesso?
 
 <div align="center">
-The first time you run any script in any project for the first time, it will show the permission pop-up, click on **"OK"** here
+Na primeira vez que você executar qualquer script em qualquer projeto pela primeira vez, ele mostrará a pop-up de permissões, clique em **"OK"** aqui
 <br><br>
 
-![first pop-up](01.png)
+![primeira pop-up](01.png)
 
-Then, it will ask you to log in into the account you want to give the permissions
+Em seguida, ele pedirá para você fazer login na conta à qual deseja conceder as permissões
 
-![log in](02.png)
+![faça login](02.png)
 
-After that it will show you this message. Here it says that Google hasn't verified this app, that's because the script is not made by Google, but by a third-party author. Here, click on the **"Advanced"** option
+Depois disso, mostrará esta mensagem. Aqui diz que o Google não verificou este app, porque o script não é feito pelo Google, mas por um autor de terceiros. Aqui, clique na opção **"Avançado"**
 
-![Google hasn't verified this script](03.png)
+![O Google não verificou este script](03.png)
 
-Then, just click on "Access _your_project_here_"
+Em seguida, basta clicar em "Acessar _seu_projeto_aqui_"
 
-![Access the project](04.png)
+![Acessar o projeto](04.png)
 
-After that, it will show you all the permissions you need to give the project to it run properly, here is just click on **"Allow"**
+Depois disso, mostrará todas as permissões que você precisa conceder ao projeto para que ele seja executado corretamente, aqui é só clicar em **"Permitir"**
 
-![finally, allow the project to run the scripts](05.png)
+![finalmente, permita que o projeto execute os scripts](05.png)
 
-# That's it, now you can run all the scripts properly, enjoy!
+# É isso, agora você pode executar todos os scripts corretamente, aproveite!
 
 </div>
-
-
-
